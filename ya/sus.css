@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(193, 255, 168);
+    font-family: 'Arvo', serif;
+    padding: 0px;
+    margin: 0px;
+}
+div{
+    min-width: 400px;
+    max-width: 1500px;
+    background-color: rgb(255, 168, 168);
+}
+div>h2{
+    color: rgb(15, 15, 107);
+    padding: 10px;
+}
+div>h2:hover{
+    color: rgb(212, 0, 0);
+    border-bottom: 3px solid gray;
+}
+audio{
+    width: 60%;
+    height: 30px;
+    margin-top: 14px;
+    margin-bottom: 0px;
+}
