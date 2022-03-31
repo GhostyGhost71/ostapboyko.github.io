@@ -1,12 +1,14 @@
 body{
     background: black;
-    color: white;
+    color: lime;
+    font-family: monospace;
 }
 a{
     text-decoration: none;
-    color: white;
+    color: lime;
     font-size: 30px;
 }
 a:hover{
     text-decoration: underline;
+    color: rgb(0, 139, 0);
 }
