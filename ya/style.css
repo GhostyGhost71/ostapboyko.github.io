@@ -4,13 +4,9 @@ html{
 body{
     background: linear-gradient(black, rgb(48, 48, 48));
     font-family: 'Arvo', serif;
-    padding: 0px;
-    margin: 0 auto;
     color: rgb(255, 255, 255);
 }
 main{
-    min-width: 400px;
-    max-width: 2000px;
     text-align: center;
 }
 main h2{
@@ -22,7 +18,7 @@ main h2:hover{
         color: violet;
 }
 audio{
-    width: 40%;
+    width: 70%;
     height: 30px;
     margin-top: 12px;
     margin-bottom: 0px;
