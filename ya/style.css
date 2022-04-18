@@ -2,13 +2,13 @@ html{
     scroll-behavior: smooth;
 }
 body{
+    background: linear-gradient(black, rgb(48, 48, 48));
     font-family: 'Arvo', serif;
     padding: 0px;
-    margin: 0px;
-    color: rgb(175, 89, 255);
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
 }
 main{
-    background-image: url(хомяк.png); 
     min-width: 400px;
     max-width: 2000px;
     text-align: center;
@@ -19,7 +19,7 @@ main h2{
     border: gray 2px solid;
 }
 main h2:hover{
-    color: rgb(255, 27, 255);
+        color: violet;
 }
 audio{
     width: 40%;
@@ -45,10 +45,10 @@ audio{
     border: gray 2px solid;
 }
 #vsi_prava_zahushcheno{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 #gmail{
-    color: black;
+    color: rgb(255, 255, 255);
 }
 h1{
     animation:cookie 0.5s infinite;
@@ -57,12 +57,12 @@ h1{
 @keyframes cookie{
     0%{color: rgb(197, 130, 130);}
     50%{color: rgb(0, 255, 98);}
-    100%{color: rgb(226, 34, 34);}
+    100%{color: rgb(255, 230, 0);}
 }
 .assa #kaka665_activate{
     color: rgb(0, 255, 0);
     padding: 5px;
-    border: 2px solid black;
+    border: 2px solid rgb(255, 0, 0);
     border-radius: 5px;
     z-index: 0;
     font-size: 1.2rem;
@@ -94,5 +94,14 @@ h1{
 footer{
     background-image: url(хомяк.png);
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
+}
+a{
+    color: aqua;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+a:hover{
+    padding-bottom: 1px;
+    border-bottom: 2px solid rgb(255, 255, 90);
 }
