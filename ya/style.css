@@ -39,6 +39,7 @@ audio{
 }
 #shak:hover{
     border: gray 2px solid;
+    color: rgb(0, 151, 151);
 }
 #vsi_prava_zahushcheno{
     color: rgb(255, 255, 255);
@@ -56,7 +57,7 @@ h1{
     100%{color: rgb(255, 230, 0);}
 }
 .assa #kaka665_activate{
-    color: rgb(0, 255, 0);
+    color: white;
     padding: 5px;
     border: 2px solid rgb(255, 0, 0);
     border-radius: 5px;
@@ -64,10 +65,16 @@ h1{
     font-size: 1.2rem;
 }
 .assa #kaka666_unactivate{
-    color: rgb(0, 255, 0);
+    color: white;
     padding: 5px;
     z-index: 0;
     font-size: 1.2rem;
+}
+.assa #kaka666_unactivate:hover{
+    color: rgb(0, 255, 0);
+}
+.assa #kaka665_activate:hover{
+    color: rgb(0, 255, 0);
 }
 .assa{
     height: 4vh;
@@ -88,7 +95,7 @@ h1{
     color: rgb(0, 130, 134);
 }
 footer{
-    background-image: url(хомяк.png);
+    background: black;
     padding: 0;
     margin: 0 auto;
 }
@@ -100,4 +107,17 @@ a{
 a:hover{
     padding-bottom: 1px;
     border-bottom: 2px solid rgb(255, 255, 90);
+}
+#babakuy{
+    color: rgb(178, 96, 255);
+    font-size: 1.3rem;
+}
+#babakuy:hover{
+    color: rgb(103, 44, 158);
+}
+#image{
+    margin-right: 30px;
+}
+#iamge{
+    font-size: 1.3rem;
 }
