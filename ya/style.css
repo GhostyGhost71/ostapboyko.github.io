@@ -121,3 +121,9 @@ a:hover{
 #iamge{
     font-size: 1.3rem;
 }
+#tudh{
+    border-bottom: 0px;
+}
+#tudh:hover{
+    border-bottom: 0px;
+}
